@@ -1,0 +1,35 @@
+{
+  "user_id": "riri36",
+  "session_id": "20260512_153906",
+  "start_time": 1778596746.7620747,
+  "end_time": 1778601701.511894,
+  "duration": 4954.749819755554,
+  "total_jumps": 1,
+  "control_mode": "force",
+  "mvc_threshold_percent": 30.0,
+  "connections": {
+    "emg_verified": true,
+    "emg_simulated": true,
+    "emg_hardware_connected": false,
+    "ball_verified": true,
+    "ball_simulated": true
+  },
+  "ball_simulated": true,
+  "gameplay_start_time": 1778601692.9708066,
+  "gameplay_start_perf": 5026285.3769283,
+  "passive_emg_logging": true,
+  "passive_ball_logging": false,
+  "fusion_master_hz": 200,
+  "fusion_delay_s": 0.03,
+  "ball_poll_hz": 60.0,
+  "ball_force_threshold": 0.35,
+  "calibration_values": {
+    "baseline_left": 0.1454623507842487,
+    "baseline_right": 0.13267851345707235,
+    "mvc_left": 0.15346009634800753,
+    "mvc_right": 0.14897727289986853,
+    "threshold": 0.14786167445337636,
+    "mvc_threshold_percent": 30.0
+  },
+  "session_config_file": "session_config.json"
+}

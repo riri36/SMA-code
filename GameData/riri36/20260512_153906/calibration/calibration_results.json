@@ -1,0 +1,11 @@
+{
+  "baseline_left": 0.1454623507842487,
+  "baseline_right": 0.13267851345707235,
+  "mvc_left": 0.15346009634800753,
+  "mvc_right": 0.14897727289986853,
+  "threshold": 0.14786167445337636,
+  "mvc_threshold_percent": 30.0,
+  "sensitivity": 1.0,
+  "quality_score": 0.9,
+  "warnings": []
+}

@@ -1,0 +1,2 @@
+event_id,timestamp,session_elapsed_s,source,control_mode,force_value,left_value,right_value,threshold,trigger_id,simulated,perf_counter
+1,1778601694.2663658,1.2955523999407887,force,force,0.35171363286101337,0.0,0.0,0.35,force_jump,True,5026286.667287

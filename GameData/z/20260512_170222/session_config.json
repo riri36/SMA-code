@@ -1,0 +1,179 @@
+{
+  "snapshot_version": 1,
+  "snapshot_time": 1778603293.520184,
+  "session": {
+    "user_id": "z",
+    "session_id": "20260512_170222",
+    "data_dir": "GameData\\z\\20260512_170222",
+    "session_start_time": 1778601742.6039116,
+    "gameplay_start_time": null,
+    "gameplay_start_perf": null
+  },
+  "control": {
+    "mode": "emg",
+    "available_modes": [
+      "emg",
+      "force",
+      "keyboard"
+    ],
+    "mode_labels": {
+      "emg": "EMG primary (hardware or simulation)",
+      "force": "Ball primary (hardware or simulation)",
+      "keyboard": "Space bar (no sensor primary)"
+    },
+    "default_mode": "emg",
+    "emg_primary": true,
+    "force_primary": false,
+    "keyboard_primary": false,
+    "passive_emg_logging": false,
+    "passive_ball_logging": true,
+    "configured_passive_emg_logging": true,
+    "configured_passive_ball_logging": true
+  },
+  "connections": {
+    "emg_verified": true,
+    "emg_simulated": true,
+    "emg_hardware_connected": false,
+    "ball_verified": true,
+    "ball_simulated": true,
+    "require_emg_path": true,
+    "require_ball_path": true,
+    "allow_emg_simulation": true,
+    "allow_ball_simulation": true
+  },
+  "calibration": {
+    "baseline_left": 0.05,
+    "baseline_right": 0.05,
+    "mvc_left": 0.8,
+    "mvc_right": 0.8,
+    "threshold": 0.3,
+    "mvc_threshold_percent": 30
+  },
+  "fusion": {
+    "config": {
+      "master_hz": 200,
+      "delay_s": 0.03,
+      "sensors": [
+        "flexor",
+        "extensor",
+        "ball_force"
+      ],
+      "left_sensor": "flexor",
+      "right_sensor": "extensor",
+      "ball_sensor": "ball_force",
+      "delsys_sensor_map": {
+        "flexor": 14,
+        "extensor": 10
+      },
+      "rms_window": 16,
+      "ball_rms_window": 4,
+      "simulate_delsys": true,
+      "simulate_ball": true,
+      "ball_device_name": "HapticBall",
+      "jump_triggers": {
+        "emg": {
+          "id": "jump",
+          "source": "emg.rms.flexor",
+          "threshold": 0.3,
+          "arm_above": 0.3,
+          "disarm_below": 0.165,
+          "refractory_ms": 150
+        },
+        "force": {
+          "id": "force_jump",
+          "source": "ball.force.rms",
+          "threshold": 0.35,
+          "arm_above": 0.35,
+          "disarm_below": 0.15,
+          "refractory_ms": 150
+        }
+      },
+      "jump_trigger": {
+        "id": "jump",
+        "source": "emg.rms.flexor",
+        "threshold": 0.3,
+        "arm_above": 0.3,
+        "disarm_below": 0.165,
+        "refractory_ms": 150
+      }
+    },
+    "runtime": {}
+  },
+  "ball": {
+    "config": {
+      "device_name": "HapticBall",
+      "scan_timeout_s": 10.0,
+      "connection_verify_timeout_s": 3.0,
+      "poll_hz": 60.0,
+      "native_sample_hz": 20.0,
+      "force_threshold": 0.35,
+      "force_arm_above": 0.35,
+      "force_disarm_below": 0.15,
+      "refractory_ms": 150,
+      "simulate_when_absent": true,
+      "queue_size": 1000,
+      "keep_duration": 1.0,
+      "calibration_feedback_threshold": 0.35,
+      "calibration_feedback_arm_above": 0.35,
+      "calibration_feedback_disarm_below": 0.15,
+      "calibration_feedback_refractory_ms": 500.0,
+      "print_simulated_force": "auto",
+      "print_simulated_force_every_n": 20,
+      "print_simulated_force_min_delta": 0.08,
+      "print_simulated_force_interval_s": 1.0
+    },
+    "runtime": {}
+  },
+  "emg_core": {
+    "raw_collection_rate": 2000,
+    "calibration_rate": 2000,
+    "gameplay_rate": 200,
+    "rms_window_size": 25,
+    "rms_overlap": 0.5,
+    "rms_calculation_rate": 60,
+    "data_format": {
+      "timestamp": "unity_timestamp",
+      "local_timestamp": "local_timestamp",
+      "emg1_raw": "emg1",
+      "emg2_raw": "emg2",
+      "emg1_rms": "rms1",
+      "emg2_rms": "rms2"
+    }
+  },
+  "calibration_config": {
+    "baseline_trials": 3,
+    "mvc_trials": 3,
+    "trial_duration": 4.0,
+    "rest_duration": 3.0,
+    "countdown_duration": 3.0,
+    "baseline_noise_threshold": 0.15,
+    "mvc_consistency_threshold": 0.3,
+    "outlier_removal_std": 2.0,
+    "quality_score_threshold": 0.6,
+    "adaptive_filtering": true,
+    "quality_control": true,
+    "real_time_feedback": true,
+    "base_threshold": 0.3,
+    "max_threshold_adjustment": 0.1,
+    "sensitivity_default": 1.0,
+    "mvc_threshold_percent_min": 10,
+    "mvc_threshold_percent_max": 80,
+    "default_mvc_threshold_percent": 30
+  },
+  "data_logging": {
+    "base_directory": "GameData",
+    "save_interval": 5.0,
+    "batch_size": 50,
+    "file_formats": [
+      "csv",
+      "jsonl"
+    ],
+    "compression": false,
+    "max_file_size_mb": 100,
+    "log_raw_emg": true,
+    "log_processed_emg": true,
+    "log_events": true,
+    "log_calibration": true,
+    "log_performance": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "user_id": "000000",
+  "session_id": "20260512_041318",
+  "start_time": 1778584398.082288,
+  "end_time": 1778584493.9015849,
+  "duration": 95.81929683685303,
+  "total_jumps": 3,
+  "control_mode": "keyboard",
+  "connections": {
+    "emg_verified": true,
+    "emg_simulated": true,
+    "ball_verified": true,
+    "ball_simulated": true
+  },
+  "ball_simulated": true,
+  "gameplay_start_time": 1778584478.721293,
+  "calibration_values": {
+    "baseline_left": 0.1416428056588829,
+    "baseline_right": 0.1309729831670253,
+    "mvc_left": 0.15163215332621746,
+    "mvc_right": 0.14788676559145794,
+    "threshold": 0.14463960995908326
+  }
+}

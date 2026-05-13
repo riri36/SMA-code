@@ -1,0 +1,24 @@
+{
+  "user_id": "11111",
+  "session_id": "20260512_041750",
+  "start_time": 1778584670.684007,
+  "end_time": 1778584687.175475,
+  "duration": 16.49146795272827,
+  "total_jumps": 0,
+  "control_mode": "emg",
+  "connections": {
+    "emg_verified": true,
+    "emg_simulated": true,
+    "ball_verified": true,
+    "ball_simulated": true
+  },
+  "ball_simulated": true,
+  "gameplay_start_time": null,
+  "calibration_values": {
+    "baseline_left": 0.05,
+    "baseline_right": 0.05,
+    "mvc_left": 0.8,
+    "mvc_right": 0.8,
+    "threshold": 0.3
+  }
+}

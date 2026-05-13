@@ -1,0 +1,35 @@
+{
+  "user_id": "z",
+  "session_id": "20260513_163401",
+  "start_time": 1778686441.8974283,
+  "end_time": 1778686522.014146,
+  "duration": 80.11671805381775,
+  "total_jumps": 1,
+  "control_mode": "emg",
+  "mvc_threshold_percent": 30.0,
+  "connections": {
+    "emg_verified": true,
+    "emg_simulated": false,
+    "emg_hardware_connected": true,
+    "ball_verified": true,
+    "ball_simulated": true
+  },
+  "ball_simulated": true,
+  "gameplay_start_time": 1778686515.6208205,
+  "gameplay_start_perf": 609896.7770742,
+  "passive_emg_logging": false,
+  "passive_ball_logging": true,
+  "fusion_master_hz": 200,
+  "fusion_delay_s": 0.03,
+  "ball_poll_hz": 60.0,
+  "ball_force_threshold": 0.35,
+  "calibration_values": {
+    "baseline_left": 0.03140314630452518,
+    "baseline_right": 0.0,
+    "mvc_left": 0.15571007987318322,
+    "mvc_right": 0.0,
+    "threshold": 0.0686952263751226,
+    "mvc_threshold_percent": 30.0
+  },
+  "session_config_file": "session_config.json"
+}
