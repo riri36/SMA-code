@@ -1,0 +1,4 @@
+event_id,timestamp,session_elapsed_s,source,control_mode,force_value,left_value,right_value,threshold,trigger_id,simulated,perf_counter
+1,1778791803.6495268,2.0379647000008845,keyboard,keyboard,,,,,,,
+2,1778791805.348462,3.7369000000016968,keyboard,keyboard,,,,,,,
+3,1778791806.2874694,4.675907400000142,keyboard,keyboard,,,,,,,

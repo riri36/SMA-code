@@ -1,0 +1,42 @@
+{
+  "user_id": "BallTest15",
+  "session_id": "20260514_233515",
+  "start_time": 1778798115.8983948,
+  "end_time": 1778798187.8456686,
+  "duration": 71.94727373123169,
+  "total_jumps": 0,
+  "control_mode": "force",
+  "mvc_threshold_percent": 30,
+  "connections": {
+    "emg_verified": true,
+    "emg_simulated": true,
+    "emg_hardware_connected": false,
+    "ball_verified": true,
+    "ball_simulated": false
+  },
+  "ball_simulated": false,
+  "gameplay_start_time": 1778798182.1791756,
+  "gameplay_start_perf": 14802.3463041,
+  "passive_emg_logging": true,
+  "passive_ball_logging": false,
+  "fusion_master_hz": 200,
+  "fusion_delay_s": 0.03,
+  "fusion_window_s": 1.0,
+  "ball_poll_hz": 60.0,
+  "ball_force_threshold": 0.35,
+  "calibration_values": {
+    "baseline_left": 0.14145665479486802,
+    "baseline_right": 0.14308678010888187,
+    "mvc_left": 0.21641465552759545,
+    "mvc_right": 0.22575713834615097,
+    "mvc_left_peak": 0.21641465552759545,
+    "mvc_right_peak": 0.22575713834615097,
+    "threshold": 0.1678878875800626,
+    "mvc_threshold_percent": 30,
+    "baseline_force": null,
+    "mvc_force_peak": null,
+    "force_threshold": 0.35,
+    "force_mvc_threshold_percent": 30.0
+  },
+  "session_config_file": "session_config.json"
+}

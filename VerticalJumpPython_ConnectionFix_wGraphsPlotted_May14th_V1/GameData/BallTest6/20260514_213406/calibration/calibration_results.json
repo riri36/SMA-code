@@ -1,0 +1,19 @@
+{
+  "baseline_left": 0.09965584403929177,
+  "baseline_right": 0.0,
+  "mvc_left": 0.10508989095520481,
+  "mvc_right": 0.0,
+  "mvc_left_peak": 0.10508989095520481,
+  "mvc_right_peak": 0.0,
+  "threshold": 0.10128605811406569,
+  "mvc_threshold_percent": 30.0,
+  "baseline_force": 0.08,
+  "mvc_force_peak": 1.2120017550819573,
+  "force_threshold": 0.4196005265245872,
+  "force_mvc_threshold_percent": 30,
+  "sensitivity": 1.0,
+  "quality_score": 0.9,
+  "warnings": [
+    "MVC values are low - try contracting muscles harder"
+  ]
+}

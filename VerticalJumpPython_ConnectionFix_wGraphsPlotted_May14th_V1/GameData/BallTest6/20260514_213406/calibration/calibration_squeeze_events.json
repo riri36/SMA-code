@@ -1,0 +1,173 @@
+[
+  {
+    "timestamp": 1778791235.1121504,
+    "session_elapsed_s": 0.0004956000002493965,
+    "perf_counter": 7855.2786994,
+    "source": "calibration_squeeze",
+    "force_value": 0.4469286070217435,
+    "threshold": 0.35,
+    "simulated": true
+  },
+  {
+    "timestamp": 1778791236.0832295,
+    "session_elapsed_s": 0.9585443000005398,
+    "perf_counter": 7856.2367481,
+    "source": "calibration_squeeze",
+    "force_value": 1.2120017550819573,
+    "threshold": 0.35,
+    "simulated": true
+  },
+  {
+    "timestamp": 1778791237.0426369,
+    "session_elapsed_s": 1.9187157000005755,
+    "perf_counter": 7857.1969195,
+    "source": "calibration_squeeze",
+    "force_value": 0.5784312695610133,
+    "threshold": 0.35,
+    "simulated": true
+  },
+  {
+    "timestamp": 1778791244.0024517,
+    "session_elapsed_s": 8.878851700000268,
+    "perf_counter": 7864.1570555,
+    "source": "calibration_squeeze",
+    "force_value": 1.0042693077503442,
+    "threshold": 0.35,
+    "simulated": true
+  },
+  {
+    "timestamp": 1778791244.4964223,
+    "session_elapsed_s": 9.383764600000177,
+    "perf_counter": 7864.6619684,
+    "source": "calibration_squeeze",
+    "force_value": 0.7366747366090101,
+    "threshold": 0.35,
+    "simulated": true
+  },
+  {
+    "timestamp": 1778791245.2643962,
+    "session_elapsed_s": 10.140249800000674,
+    "perf_counter": 7865.4184536,
+    "source": "calibration_squeeze",
+    "force_value": 0.9715721057872921,
+    "threshold": 0.35,
+    "simulated": true
+  },
+  {
+    "timestamp": 1778791245.7581284,
+    "session_elapsed_s": 10.644302900000184,
+    "perf_counter": 7865.9225067,
+    "source": "calibration_squeeze",
+    "force_value": 0.7540479728149941,
+    "threshold": 0.35,
+    "simulated": true
+  },
+  {
+    "timestamp": 1778791247.429363,
+    "session_elapsed_s": 12.311524000000645,
+    "perf_counter": 7867.5897278,
+    "source": "calibration_squeeze",
+    "force_value": 0.6865527939756441,
+    "threshold": 0.35,
+    "simulated": true
+  },
+  {
+    "timestamp": 1778791249.2035508,
+    "session_elapsed_s": 14.077668200000517,
+    "perf_counter": 7869.355872,
+    "source": "calibration_squeeze",
+    "force_value": 0.5125807372522467,
+    "threshold": 0.35,
+    "simulated": true
+  },
+  {
+    "timestamp": 1778791251.4078577,
+    "session_elapsed_s": 16.293991200000164,
+    "perf_counter": 7871.572195,
+    "source": "calibration_squeeze",
+    "force_value": 0.6007838167139485,
+    "threshold": 0.35,
+    "simulated": true
+  },
+  {
+    "timestamp": 1778791253.0796242,
+    "session_elapsed_s": 17.957118500000433,
+    "perf_counter": 7873.2353223,
+    "source": "calibration_squeeze",
+    "force_value": 0.45018719863823403,
+    "threshold": 0.35,
+    "simulated": true
+  },
+  {
+    "timestamp": 1778791253.5742936,
+    "session_elapsed_s": 18.46050060000016,
+    "perf_counter": 7873.7387044,
+    "source": "calibration_squeeze",
+    "force_value": 0.8009343297151618,
+    "threshold": 0.35,
+    "simulated": true
+  },
+  {
+    "timestamp": 1778791254.343043,
+    "session_elapsed_s": 19.21672220000073,
+    "perf_counter": 7874.494926,
+    "source": "calibration_squeeze",
+    "force_value": 0.9502169238709564,
+    "threshold": 0.35,
+    "simulated": true
+  },
+  {
+    "timestamp": 1778791260.2344491,
+    "session_elapsed_s": 25.118298800000048,
+    "perf_counter": 7880.3965026,
+    "source": "calibration_squeeze",
+    "force_value": 0.6498769746292761,
+    "threshold": 0.35,
+    "simulated": true
+  },
+  {
+    "timestamp": 1778791261.943698,
+    "session_elapsed_s": 26.828735900000538,
+    "perf_counter": 7882.1069397,
+    "source": "calibration_squeeze",
+    "force_value": 0.3794197139421815,
+    "threshold": 0.35,
+    "simulated": true
+  },
+  {
+    "timestamp": 1778791262.9503927,
+    "session_elapsed_s": 27.838718599999993,
+    "perf_counter": 7883.1169224,
+    "source": "calibration_squeeze",
+    "force_value": 0.9670318759705339,
+    "threshold": 0.35,
+    "simulated": true
+  },
+  {
+    "timestamp": 1778791263.4599314,
+    "session_elapsed_s": 28.34301670000059,
+    "perf_counter": 7883.6212205,
+    "source": "calibration_squeeze",
+    "force_value": 0.895660222237403,
+    "threshold": 0.35,
+    "simulated": true
+  },
+  {
+    "timestamp": 1778791264.2117462,
+    "session_elapsed_s": 29.099459700000807,
+    "perf_counter": 7884.3776635,
+    "source": "calibration_squeeze",
+    "force_value": 0.39931164392087765,
+    "threshold": 0.35,
+    "simulated": true
+  },
+  {
+    "timestamp": 1778791265.525589,
+    "session_elapsed_s": 30.411721899999975,
+    "perf_counter": 7885.6899257,
+    "source": "calibration_squeeze",
+    "force_value": 0.5741470497273973,
+    "threshold": 0.35,
+    "simulated": true
+  }
+]

@@ -1,0 +1,2 @@
+# pygame and numpy are already required by the legacy VerticalJumpPython app.
+# This shell adds no extra runtime dependencies.
