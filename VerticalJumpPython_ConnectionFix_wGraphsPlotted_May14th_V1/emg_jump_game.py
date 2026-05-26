@@ -958,6 +958,7 @@ class EMGGameController:
 
     def begin_gameplay_session(self):
         """Mark gameplay start and start the unified fusion gameplay path."""
+        self.stop_emg_processing()
         self.gameplay_start_time = time.time()
         self.gameplay_start_perf = time.perf_counter()
         self._jump_event_seq = 0
@@ -966,7 +967,6 @@ class EMGGameController:
         ball_reader = None
         if self.ball_monitor:
             ball_reader = self.ball_monitor.release_reader()
-            self.ball_monitor = None
         # FUSION ADDITION: primary trigger mode selects the active fused jump source.
         self.start_emg_processing(
             control_mode=self.control_mode,
@@ -1830,6 +1830,7 @@ class IntegratedEMGGame:
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_r:
                 # Return to menu
+                self.emg_controller.stop_emg_processing()
                 self.state = GameState.MENU
                 self.reset_game_components()
             elif event.key == pygame.K_q:

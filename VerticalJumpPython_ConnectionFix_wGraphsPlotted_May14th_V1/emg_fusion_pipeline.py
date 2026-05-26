@@ -70,6 +70,7 @@ class EMGFusionPipeline:
     self._monitoring_active = False
     self._triggers = self._build_triggers()
     self._active_trigger = self._select_active_trigger(self.control_mode)
+    self.update_calibration(self.calibration_values)
     self.fusion_bus = DataFusion(
       sensors=self.sensors,
       fusion_rate=self.master_hz,
@@ -93,8 +94,12 @@ class EMGFusionPipeline:
       cfg = dict(trigger_cfg)
       if mode == "emg":
         cfg["threshold"] = float(self.calibration_values.get("threshold", cfg["threshold"]))
-      elif mode == "force" and not FUSION_CONFIG.get("ball_trigger_use_rms", True):
-        cfg["source"] = "ball.force"
+      elif mode == "force":
+        force_threshold = self.calibration_values.get("force_threshold")
+        if force_threshold is not None:
+          cfg["threshold"] = float(force_threshold)
+        if not FUSION_CONFIG.get("ball_trigger_use_rms", True):
+          cfg["source"] = "ball.force"
       triggers[mode] = build_fusion_triggers([cfg])[0]
     return triggers
 
